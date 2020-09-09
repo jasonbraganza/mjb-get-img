@@ -2,10 +2,11 @@
 Early start today.  
 Hope brains work.  
 
-made a lot of progress
+made a lot of progress  
 got a url, made sure there was only one url on the command line, sanitised the url, reached out on the web for it and put it into an object.  
-more tomorrow
-
+created a rough README and requirements.txt file  
+more tomorrow  
+  
 ### 2020/09/08  
 Missed a day.  
 Trying to make up for it, by working a bit extra today.  

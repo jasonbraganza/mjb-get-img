@@ -1,7 +1,6 @@
-# Foobar
+# Introduction
 
-This is a sample readme, I copied from [Make a Readme](https://www.makeareadme.com/).
-Yet to be populated
+A python program that takes a web page url, and saves images from that page into a folder.  
 
 <!-- ## Installation
 
@@ -11,19 +10,15 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 pip install foobar
 ``` -->
 
-<!-- ## Usage
+## Usage
 
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-``` -->
+```bash  
+$ python mjbgetimg.py 'some-url'
+```
 
 
 ## License
-This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/).  
+This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) license.  
 Look at the LICENSE file for more details.  
   
 This project also uses the Python Requests library, which has an [Apache License v2.0](https://choosealicense.com/licenses/apache-2.0/).  

@@ -4,11 +4,10 @@ A python program that takes a web page url, and saves images from that page into
 
 ## Installation
 
-### Requirements.Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
+Needs Python 3.6 or above.  
+This project uses the Beautiful Soup and Requests packages.  
+Use the requirements.txt file to get them. Install with a `pip install -r /path/to/requirements.txt`
+Best do this in a virtual environment.  
 
 ## Usage
 

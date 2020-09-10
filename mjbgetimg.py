@@ -30,6 +30,11 @@ from bs4 import BeautifulSoup
 
 
 def main():
+    soup = make_soup()
+    print(soup.find_all("img"))
+
+
+def make_soup():
     if len(sys.argv) > 2:
         print("Please enter only one webpage link at a time.")
     elif len(sys.argv) == 1:
@@ -39,7 +44,7 @@ def main():
         if sanitise_url(raw_url):
             raw_page = get_page_from_requests(raw_url)
             if raw_page:
-                print(raw_page.status_code)
+                return BeautifulSoup(raw_page.text, features="html.parser")
             else:
                 print("Uh-oh, something is wrong.")
 
